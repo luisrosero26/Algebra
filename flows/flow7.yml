@@ -1,0 +1,53 @@
+completion_text: |-
+  HAs completado la semana 2
+description: |-
+  Seman 2 contenidos
+pages:
+- content: "#day 3\n<div class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipiscing\
+    \ elit. Donec sed lectus id orci facilisis tincidunt. Nam vitae nulla rutrum,\
+    \ tristique risus at, malesuada lectus. Fusce porta justo sit amet enim gravida\
+    \ placerat. Donec vulputate ante eget sollicitudin cursus. Curabitur purus neque,\
+    \ dignissim quis fringilla vel, bibendum eget orci. In eget urna in turpis consectetur\
+    \ hendrerit. Cras sed nulla eros. Donec ac ultrices lorem. Suspendisse eu faucibus\
+    \ leo, sed pharetra velit. Suspendisse elementum justo sit amet lacus accumsan,\
+    \ quis tempor felis efficitur. Nunc a pretium ligula, eu laoreet dui. Phasellus\
+    \ non porta massa. Morbi vel erat sed leo facilisis gravida ac nec enim.\r\n\r\
+    \nProin imperdiet magna vel enim vestibulum, at cursus ex ornare. Fusce venenatis\
+    \ rutrum ligula, at egestas metus auctor eget. Nunc blandit condimentum leo vel\
+    \ consectetur. Aliquam dictum pretium urna. Vivamus tincidunt condimentum odio\
+    \ vitae luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus.\
+    \ Curabitur in dui commodo tellus tincidunt laoreet eget nec tortor. Vestibulum\
+    \ sed pharetra urna, in lacinia velit. Nulla facilisi. In hac habitasse platea\
+    \ dictumst. Sed non ex dui. Proin ac faucibus nibh. Maecenas tincidunt nisi lacus,\
+    \ vitae venenatis est pellentesque nec.</div>\n                "
+  id: page14
+  type: Page
+- content: "#day 4\n<div class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipiscing\
+    \ elit. Donec sed lectus id orci facilisis tincidunt. Nam vitae nulla rutrum,\
+    \ tristique risus at, malesuada lectus. Fusce porta justo sit amet enim gravida\
+    \ placerat. Donec vulputate ante eget sollicitudin cursus. Curabitur purus neque,\
+    \ dignissim quis fringilla vel, bibendum eget orci. In eget urna in turpis consectetur\
+    \ hendrerit. Cras sed nulla eros. Donec ac ultrices lorem. Suspendisse eu faucibus\
+    \ leo, sed pharetra velit. Suspendisse elementum justo sit amet lacus accumsan,\
+    \ quis tempor felis efficitur. Nunc a pretium ligula, eu laoreet dui. Phasellus\
+    \ non porta massa. Morbi vel erat sed leo facilisis gravida ac nec enim.\r\n\r\
+    \nProin imperdiet magna vel enim vestibulum, at cursus ex ornare. Fusce venenatis\
+    \ rutrum ligula, at egestas metus auctor eget. Nunc blandit condimentum leo vel\
+    \ consectetur. Aliquam dictum pretium urna. Vivamus tincidunt condimentum odio\
+    \ vitae luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus.\
+    \ Curabitur in dui commodo tellus tincidunt laoreet eget nec tortor. Vestibulum\
+    \ sed pharetra urna, in lacinia velit. Nulla facilisi. In hac habitasse platea\
+    \ dictumst. Sed non ex dui. Proin ac faucibus nibh. Maecenas tincidunt nisi lacus,\
+    \ vitae venenatis est pellentesque nec.</div>\n                "
+  id: page15
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: Semana 2
