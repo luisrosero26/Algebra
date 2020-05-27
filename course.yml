@@ -1,0 +1,8 @@
+chunks:
+- content: ' <h1>algebra2020</h1> <div><div class=card><div class=card-body><h4>Semana
+    2</h4><a href=flow:flow7 role=button class="btn btn-default">ENTRAR</a></div></div><div
+    class=card><div class=card-body><h4>Semana 1</h4><a href=flow:flow6 role=button
+    class="btn btn-default">ENTRAR</a></div></div></div>'
+  id: welcome
+  rules: []
+  title: algebra2020
